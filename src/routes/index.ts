@@ -6,7 +6,7 @@ import { getUsers,getUserbyId, } from "../controllers/index.controler";
 // router.get("/test", (req, res) => res.send("conexion exitosa"));
 
 router.get("/users", getUsers);
-router.get("/users/:id", getUsers);
+router.get("/users/:id", getUserbyId);
 router.put("/users", getUsers);
 router.post("/users", getUsers);
 router.delete("/users", getUsers);
