@@ -8,8 +8,9 @@ CREATE TABLE
     );
 
 insert into users (name, email)
-values
-('allan', 'allan@gmail.com'), (
+values ('allan', 'allan@gmail.com'), (
         'martina',
         'martina@gmail.com'
     );
+
+select * from users;
