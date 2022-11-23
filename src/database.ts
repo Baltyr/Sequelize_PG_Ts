@@ -1,7 +1,10 @@
-import { Pool} from 'pg'
+import { Pool } from 'pg'
+
+
+
 
 // conexion con la base de datos
-export const pool = new Pool ({
+export const pool = new Pool({
     user: "postgres",
     host: "localhost",
     password: "1234",
